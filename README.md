@@ -4,14 +4,15 @@
 Experimenting with my dotfiles and starship to visually change the shell.
 I'm using starship's module, shell indicator, to treat the various shells as vim-like "modes" so that I can easily switch from one shell to another via alias settings. The rc file needs to be maintained to adapt starship to all shells.
 Also, some starship modules may not function partially in some shells, so auxiliary descriptions are required in rc files.
-Here is my own experimental site [dotfiles](https://github.com/Coordinate-Cat/dotfiles)
+Here is my own experimental site ([dotfiles](https://github.com/Coordinate-Cat/dotfiles))  
+This plan does not plan to support powershell, etc., which can currently only be checked on windows devices.
 
 - multiple shell mode system
   - bash mode
   - zsh mode
   - nushell mode
   - fish mode
-  - ~~ion mode(idk how to install ion on macOS)~~(Probably not.)
+  - ~~ion mode~~(Perhaps not usable on macos?)
   - elvish mode
   - tcsh mode
   - xonsh mode
