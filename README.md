@@ -13,10 +13,19 @@ Currently, all rc files have not been maintained, so it is recommended not to cl
   - zsh mode
   - nushell mode
   - fish mode
-  - ~~ion mode~~(Perhaps not usable on macos?)
   - elvish mode
-  - tcsh mode
   - xonsh mode
+
+## Rc files
+| name        | default place                         |
+|:------------|:--------------------------------------|
+| .bashrc     | ~/.bashrc                             |
+| .zshrc      | ~/.zshrc                              |
+| config.nu   | ~/Library/Application Support/nushell |
+| config.fish | ~/.config/fish/config.fish            |
+| rc.elv      | ~/.config/elvish/rc.elv               |
+| .xonshrc    | ~/.config/xonsh/.zxonhrc              |
+
 
 ## Shell Indicator
 Prompts are colored in hexadecimal and decorations are created using nerd-font.
@@ -29,7 +38,6 @@ zsh_indicator = "[](fg:#94b3a8 bg:#6f6565)[Z-MODE](fg:#fff1cf bg:#94b3a8)[
 nu_indicator = "[](fg:#fe6142 bg:#6f6565)[N-MODE](fg:#fff1cf bg:#fe6142)[](fg:#fe6142 bg:#6f6565)[  ](fg:#fe6142 bg:#6f6565)[](fg:#6f6565)"
 fish_indicator = "[](fg:#5442f5 bg:#6f6565)[F-MODE](fg:#fff1cf bg:#5442f5)[](fg:#5442f5 bg:#6f6565)[  ](fg:#5442f5 bg:#6f6565)[](fg:#6f6565)"
 elvish_indicator = "[](fg:#a742f5 bg:#6f6565)[E-MODE](fg:#fff1cf bg:#a742f5)[](fg:#a742f5 bg:#6f6565)[  ](fg:#a742f5 bg:#6f6565)[](fg:#6f6565)"
-tcsh_indicator = "[](fg:#ff24da bg:#6f6565)[T-MODE](fg:#fff1cf bg:#ff24da)[](fg:#ff24da bg:#6f6565)[  ](fg:#ff24da bg:#6f6565)[](fg:#6f6565)"
 xonsh_indicator = "[](fg:#70ff24 bg:#6f6565)[X-MODE](fg:#fff1cf bg:#70ff24)[](fg:#70ff24 bg:#6f6565)[  ](fg:#70ff24 bg:#6f6565)[](fg:#6f6565)"
 unknown_indicator = "[](fg:#fff1cf bg:#6f6565) ?-MODE [](fg:#6f6565)"
 style = "fg:#fff1cf bg:#6f6565"
@@ -45,7 +53,6 @@ disabled = false
 | Nushell | https://www.nushell.sh/            |
 | Fish    | https://fishshell.com/             |
 | Elvish  | https://elv.sh/                    |
-| Tcsh    | https://www.tcsh.org/              |
 | Xonsh   | https://github.com/xonsh/xonsh     |
 ### Starship
 | Starship |                                      |
